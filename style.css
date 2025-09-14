@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #2b2222;
+    color: #fff;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 40px 0;
+}
+
+.car-section {
+    margin: 50px 20px;
+}
+
+.car-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.car-section.left .car-container {
+    flex-direction: row;
+}
+
+.car-section.right .car-container {
+    flex-direction: row-reverse;
+}
+
+.car-container img {
+    width: 400px;
+    height: auto;
+    border-radius: 14px;
+    box-shadow: -14px -14px 15px #1c1616, 14px 14px 15px #3a2e2e;
+}
+
+.car-text-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 600px;
+}
+
+.car-text {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #555;
+    margin: 40px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 17px 40px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: #fff;
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+.btn:active {
+    transform: translateY(5px);
+    transition: 100ms;
+}
+
+.contact-section {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.contact-info {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+}
